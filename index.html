@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/png" href="img/tata.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>汐Saki 🫧 Converteur</title>
+</head>
+<body>
+    <div class="container my-5 bar" >
+            <h1>Convertisseur Carte CMS</h1>
+    </div>
+
+    <div class="container mt-5 txt">
+        <div class="row text-center">
+            <label class="text-white col-sm-6 col-form-label" >TON CODE</label>
+            <div class="col-sm-6">
+                <input type="text" id="text" class="form-control">
+            </div>
+        </div> 
+    </div>
+    <div class=" container text-center btn01">
+        <div class="row row-cols-2 row-cols-lg-3 g-4">
+            
+            <div class="col">
+                <button class="btn btn-dark btn-lg" onclick="DecToHex()">DECIMAL > HEXADECIMAL</button>          
+            </div>
+            <div class="col">
+                <button class="btn btn-dark btn-lg" onclick="HexToDec()">HEXADECIMAL > DECIMAL</button>           
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="result container text-center py-5">
+        <h3 class="text-white" id="result">RESULTAT</h3>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/logic.js"></script>
+</body>
+</html>
